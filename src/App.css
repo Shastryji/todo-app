@@ -1,0 +1,16 @@
+@import "tailwindcss";
+.card {
+  @apply p-8 bg-white rounded-lg shadow mb-4;
+}
+
+.read-the-docs {
+  @apply text-gray-500;
+}
+
+/* Tailwind-inspired custom classes for demo */
+.btn {
+  @apply px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-600 transition-colors;
+}
+.input {
+  @apply w-full p-2 border rounded mb-2;
+}
